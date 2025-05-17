@@ -13,7 +13,7 @@ import { ref, uploadBytes, getDownloadURL } from 'firebase/storage'
 
 import { signUp, errNullonUmount } from '../../../Slices/Authentication/authenticationSlice'
 import UploadImage from '../../../components/UploadImage'
-import { storage } from '../../../Firebase/firebase'
+import { storage } from '../../../Services/Firebase/firebase'
 import { LinearGradientContainer, 
          ProfileImage,
          UploadingImage,
