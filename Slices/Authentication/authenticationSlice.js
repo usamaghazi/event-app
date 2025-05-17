@@ -4,7 +4,7 @@ import { createUserWithEmailAndPassword,
          updateProfile,
          signOut
  } from 'firebase/auth'
-import { auth } from '../../Firebase/firebase'
+import { auth } from '../../Services/Firebase/firebase'
 
 export const signOutUser = createAsyncThunk('auth/signOutUser', async(_,{ rejectWithValue })=>{
 try {

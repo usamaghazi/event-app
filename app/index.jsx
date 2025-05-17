@@ -3,7 +3,7 @@ import React,{ useEffect,useState } from 'react'
 import { useSelector } from 'react-redux'
 import { useRouter } from 'expo-router'
 
-import { Container } from '../components/Styled-Components/FirstPage'
+import { Container } from '../components/Styled-Components/Styles'
   
 const Main = () => {
   const [isMount, setIsMount ] = useState(false)
